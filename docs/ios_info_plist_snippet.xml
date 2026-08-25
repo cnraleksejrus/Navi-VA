@@ -1,0 +1,3 @@
+<!-- In ios/Runner/Info.plist innerhalb von <dict> -->
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>Navi-VA benötigt deinen Standort für Navigation und Verkehrsinformationen.</string>

@@ -1,0 +1,25 @@
+{
+  "description": "Beispielvertrag für den späteren Navi-VA-Backend-Service.",
+  "trafficEvents": [
+    {
+      "id": "string",
+      "type": "traffic_light|construction|accident|road_closure",
+      "latitude": 50.1109,
+      "longitude": 8.6821,
+      "lightState": "red|green|unknown",
+      "description": "string",
+      "updatedAt": "2026-08-25T21:35:00+02:00"
+    }
+  ],
+  "trafficLights": [
+    {
+      "id": "tl-123",
+      "latitude": 50.1109,
+      "longitude": 8.6821,
+      "cycle": {
+        "phase": "green",
+        "remainingSeconds": 18
+      }
+    }
+  ]
+}
