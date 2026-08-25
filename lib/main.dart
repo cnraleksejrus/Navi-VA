@@ -3,11 +3,11 @@ import 'screens/home_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const Navi-VAApp());
+  runApp(NaviVAApp());
 }
 
-class Navi-VAApp extends StatelessWidget {
-  const Navi-VAApp({super.key});
+class NaviVAApp extends StatelessWidget {
+  const NaviVAApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,10 +15,12 @@ class Navi-VAApp extends StatelessWidget {
       title: 'Navi-VA',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.indigo,
+        ),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: HomeScreen(),
     );
   }
 }
