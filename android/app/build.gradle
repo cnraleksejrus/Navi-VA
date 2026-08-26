@@ -10,13 +10,13 @@ android {
 
     ndkVersion flutter.ndkVersion
 
-    defaultConfig {
-        applicationId "com.naviva.app"
-        minSdk 24
-        targetSdk flutter.targetSdkVersion
-        versionCode flutter.versionCode
-        versionName flutter.versionName
-    }
+defaultConfig {
+    applicationId "com.naviva.app"
+    minSdk flutter.minSdkVersion
+    targetSdk flutter.targetSdkVersion
+    versionCode flutter.versionCode
+    versionName flutter.versionName
+}
 
     buildTypes {
         release {
